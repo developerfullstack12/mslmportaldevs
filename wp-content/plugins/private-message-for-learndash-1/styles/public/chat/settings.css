@@ -1,0 +1,37 @@
+.imm-chat-settings {
+  background-color: rgba(var(--imm-container-color), 1);
+  @apply imm-absolute imm-top-0 imm-right-0 imm-bottom-0 imm-w-60 imm-z-50;
+}
+
+.imm-chat-settings--is-hidden {
+  @apply imm-hidden;
+}
+
+.imm-chat-settings__header {
+  @apply imm-p-4 imm-box-border imm-flex imm-justify-between;
+}
+
+.imm-chat-settings__title {
+  color: rgba(var(--imm-text-color), 1);
+  @apply imm-text-2xl imm-m-0 imm-font-sans imm-font-bold;
+}
+
+.imm-chat-settings__container {
+  @apply imm-p-4 imm-box-border;
+}
+
+.imm-chat-settings__items {
+}
+
+.imm-chat-settings__label {
+  grid-template-columns: 25px 1fr;
+  @apply imm-text-sm imm-font-medium imm-leading-none imm-grid imm-gap-x-4;
+}
+
+#imm-chat-settings__close-button {
+  @apply imm-flex imm-p-0 imm-items-center imm-bg-transparent imm-no-default-button imm-shadow-none;
+}
+
+#imm-chat-settings__close-button span {
+  @apply imm-text-3xl imm-w-auto imm-h-auto imm-leading-none;
+}

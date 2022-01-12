@@ -1,0 +1,208 @@
+.imm-chat-content {
+  height: 100%;
+  @apply imm-relative imm-flex imm-flex-col imm-p-2 lg:imm-p-4 lg:imm-pt-2 imm-box-border imm-flex-grow imm-rounded-r-xl imm-rounded-l-xl md:imm-rounded-l-none;
+}
+
+.imm-chat--is-small .imm-chat-content {
+  @apply imm-p-2 imm-rounded-l-xl;
+}
+
+.imm-chat__window {
+  height: calc(100% - 52px); /* 52px size of chat header */
+  @apply imm-relative imm-flex imm-flex-col;
+}
+
+.imm-chat--is-small .imm-chat__window {
+  height: calc(100% - 52px); /* 52px size of chat header */
+}
+
+.imm-chat__message-box {
+  background-color: rgba(var(--imm-bg-message-box-color), 1);
+  border: 0;
+  @apply imm-relative imm-h-10 imm-flex imm-flex-nowrap imm-flex-row imm-flex-grow imm-rounded-full imm-box-border imm-py-2 imm-px-4;
+}
+
+#ldpm-message-to-send {
+  border: 0;
+  @apply imm-box-border imm-relative imm-h-full imm-flex-grow imm-p-0 imm-pb-1 imm-pl-1 imm-font-sans imm-text-gray-600 imm-leading-5 imm-resize-none imm-placeholder-gray-300 imm-border-none focus:imm-outline-none imm-text-sm imm-bg-transparent;
+}
+
+#ldpm-send-message {
+  background-color: rgba(var(--imm-button-send-color), 1);
+  @apply imm-flex imm-p-0 imm-flex-none sm:imm-ml-4 imm-rounded-full imm-bg-opacity-90 imm-w-10 imm-h-10 imm-cursor-pointer imm-justify-center imm-items-center imm-no-default-button;
+}
+
+#ldpm-send-message svg {
+  @apply imm-h-4 imm-w-4 sm:imm-h-5 sm:imm-w-5 imm-text-white imm-fill-current;
+}
+
+.imm-chat__message-box__file {
+  @apply imm-box-border imm-h-5 imm-w-5 imm-text-gray-500 imm-cursor-pointer imm-fill-current imm-mr-1;
+}
+
+.imm-chat__message-box__file__notification {
+  @apply imm-absolute imm-hidden imm-justify-center imm-items-center imm-top-1 imm-right-3 imm-text-white imm-w-4 imm-h-4 imm-rounded-full imm-text-xs imm-bg-yellow-400;
+}
+
+.imm-chat__conversation {
+  @apply imm-flex-grow imm-overflow-x-hidden imm-overflow-y-scroll imm-hidden-scrollbar imm-my-2;
+}
+
+.imm-chat__conversation__container {
+  @apply imm-w-full imm-h-full;
+}
+
+.imm-chat__message-box__container {
+  @apply imm-w-full imm-p-5 imm-flex imm-flex-nowrap imm-flex-row imm-box-border;
+}
+
+.imm-chat__message-box__container form {
+  position: relative;
+  width: 100%;
+  @apply imm-flex imm-flex-nowrap imm-flex-row;
+}
+
+.imm-chat__history {
+  @apply imm-px-6 imm-w-full imm-flex imm-items-end imm-h-full;
+}
+
+.imm-chat__history__items {
+  @apply imm-flex imm-flex-col imm-w-full imm-max-w-full imm-overflow-y-scroll imm-hidden-scrollbar imm-h-full imm-items-end;
+}
+
+.imm-chat__history__hidden {
+  @apply imm-flex-grow;
+}
+
+.imm-chat__message {
+  color: rgba(var(--imm-text-color), 1);
+  @apply imm-flex imm-flex-col imm-py-2 imm-clear-both imm-font-medium imm-mr-auto;
+}
+
+.imm-chat__message__content {
+  @apply imm-flex;
+}
+
+.imm-chat__message--is-right {
+  @apply imm-ml-auto imm-mr-0;
+}
+
+.imm-chat__message__text {
+  @apply imm-flex-col imm-max-w-xs;
+}
+
+.imm-chat__message__text__container {
+  background-color: rgba(var(--imm-bg-message-2-color), 0.9);
+  @apply imm-space-y-2 imm-text-left imm-px-4 imm-py-2 imm-rounded-xl imm-text-base imm-tracking-wide;
+}
+
+.imm-chat__message--is-right .imm-chat__message__text__container {
+  background-color: rgba(var(--imm-bg-message-1-color), 1);
+}
+
+.imm-chat__message--is-right .imm-chat__message__content {
+  @apply imm-justify-end;
+}
+
+.imm-chat__message__time {
+  color: rgba(var(--imm-time-color), 0.75);
+  @apply imm-block imm-text-xs imm-text-left imm-cursor-default imm-pt-1 imm-ml-2;
+}
+
+#ldpm-chat-conversation .imm-chat__message__delete__button {
+  border: 0;
+  text-transform: none;
+  cursor: pointer;
+  color: inherit;
+  -webkit-appearance: button;
+  font-family: inherit;
+  @apply imm-text-xs imm-text-left imm-p-0 imm-m-0 imm-pt-1 imm-ml-2 imm-cursor-pointer imm-bg-transparent imm-underline imm-px-0;
+}
+
+.imm-chat__message--is-right .imm-chat__message__time {
+  @apply imm-text-right imm-mr-2 imm-ml-0;
+}
+
+.imm-chat__message__avatar {
+  @apply imm-block imm-h-10 imm-w-10 imm-rounded-full imm-mx-auto;
+}
+
+.imm-chat__message__username {
+  @apply imm-mt-1 imm-text-xs imm-font-semibold imm-leading-4 imm-ml-2;
+}
+
+.imm-chat__message--is-right .imm-chat__message__username {
+  color: rgba(var(--imm-text-color), 1);
+  @apply imm-text-right imm-mr-2 imm-ml-0;
+}
+
+.imm-chat__message__user {
+  @apply imm-self-end imm-w-14 imm-text-center imm-flex-shrink-0;
+}
+
+.imm-chat-content__backdrop::after {
+  content: '';
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.imm-chat-content__header {
+  @apply imm-flex imm-flex-row imm-my-2;
+}
+
+.imm-chat--is-small .imm-chat-content__header {
+  @apply imm-flex;
+}
+
+#ldpm-chat-container:not(.imm-chat--is-small) #imm-chat-menu__button {
+  @apply md:imm-hidden;
+}
+
+#imm-chat-menu__button,
+#imm-chat-settings__button {
+  @apply imm-p-0 imm-flex imm-items-center imm-px-2 imm-bg-transparent imm-no-default-button imm-shadow-none;
+}
+
+#imm-chat-menu__button span,
+#imm-chat-settings__button span {
+  @apply imm-text-3xl imm-w-auto imm-h-auto imm-leading-none;
+}
+
+.imm-chat-menu__title__container {
+  @apply imm-flex-grow imm-ml-2 imm-self-center;
+}
+
+.imm-chat-menu__title__container #imm-chat-menu__title {
+  color: rgba(var(--imm-text-color), 1);
+  @apply imm-m-0 imm-leading-none imm-font-semibold imm-text-lg imm-font-sans;
+}
+
+.imm-theme-classic .imm-chat__message-box {
+  border: 1px solid rgba(var(--imm-text-color), 0.3);
+}
+
+.imm-theme-classic .imm-chat__message--is-right {
+  color: rgba(var(--imm-bg-message-box-color), 1);
+}
+
+.imm-chat__message__attachment {
+  color: rgba(var(--imm-text-color), 1);
+  @apply imm-block imm-underline;
+}
+
+.imm-theme-classic .imm-chat__message--is-right .imm-chat__message__attachment {
+  color: rgba(var(--imm-bg-message-box-color), 1);
+}
+
+.imm-chat__message__text--is-deleted {
+  color: rgba(var(--imm-text-color), 0.85);
+  @apply imm-block imm-underline imm-text-xs imm-italic;
+}
+
+.imm-theme-classic .imm-chat__message--is-right .imm-chat__message__text--is-deleted {
+  color: rgba(var(--imm-bg-message-box-color), 0.85);
+}

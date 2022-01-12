@@ -1,0 +1,529 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /* ~~ Top Navigation Bar ~~ */
+
+ #wpwrap{
+    background: #f1f1f1;
+}
+
+ .ays-notice-banner{
+    width: calc(100% - 20px);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.ays-notice-banner #navigation-container {
+    width: 100%;
+    margin: 0 auto;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.ays-notice-banner .navigation-bar {
+    width: 100%;
+    text-align:center;
+}
+
+.ays-notice-banner .navigation-bar a.logo-container{
+    margin: 0 0 0 20px;
+}
+
+.ays-notice-banner .navigation-bar a.logo-container .logo {
+    float: left;
+    width: 80px;
+}
+
+.ays-notice-banner .navigation-bar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 0;
+    margin: 0 20px 0 0;
+    max-width: 100%;
+    min-width: 200px;
+    width: 100%;
+}
+
+.ays-notice-banner .navigation-bar li {
+    padding: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+}
+
+.ays-notice-banner .navigation-bar li.take_survay a:hover:after {
+    border-color: #f50057;
+}
+
+.ays-notice-banner .navigation-bar li.take_survay a {
+    color: #f50057;
+}
+
+.ays-notice-banner .navigation-bar li a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 0;
+}
+
+.ays-notice-banner .navigation-bar li a:after {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.ays-notice-banner .navigation-bar li a:hover:after{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+}
+
+.ays-notice-banner .modile-ddmenu-lg {
+    display: none;
+}
+
+.ays-notice-banner .modile-ddmenu-sm,
+.ays-notice-banner .modile-ddmenu-md {
+    display: none;
+    position: relative;
+    width: 80px;
+}
+
+.ays-notice-banner #menu li a.toggle_ddmenu {
+    font-size:25px;
+    color:#fff;
+    width: 100%;
+}
+
+.ays-notice-banner #menu li a.toggle_ddmenu i.ays_fa{
+    transition: .1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.ays-notice-banner li ul.ddmenu {
+    display: none;
+    position: absolute;
+    right: -55px;
+    top: 50px;
+    z-index: 10000;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 200px;
+    text-align: left;
+    background-color: #0093E9;
+    background-image: linear-gradient(-160deg, #80D0C7 0%, #0093E9 100%);
+}
+
+.ays-notice-banner li ul.ddmenu[data-expanded="true"] {
+    display: flex;
+    animation: slideInRight .2s;
+}
+
+.ays-notice-banner li ul.ddmenu li {
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 1080px){
+    .ays-notice-banner .modile-ddmenu-lg {
+        display: block;
+    }
+    .ays-notice-banner .modile-ddmenu-sm {
+        display: none;
+    }
+    .ays-notice-banner .modile-ddmenu-md {
+        display: none;
+    }
+    .ays-notice-banner .modile-ddmenu-xs {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .ays-notice-banner .modile-ddmenu-md {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 531px) and (max-width: 768px){
+    .ays-notice-banner .modile-ddmenu-sm {
+        display: none;
+    }
+    .ays-notice-banner .modile-ddmenu-md {
+        display: block;
+    }
+}
+@media screen and (max-width: 530px){    
+    .ays-notice-banner .modile-ddmenu-sm {
+        display: block;
+    }
+    .ays-notice-banner .modile-ddmenu-md {
+        display: none;
+    }
+    .ays-notice-banner .modile-ddmenu-xs {
+        display: none;
+    }
+}
+@media screen and (max-width: 530px){    
+    .ays-notice-banner .modile-ddmenu-sm {
+        display: block;
+    }
+    .ays-notice-banner .modile-ddmenu-md {
+        display: none;
+    }
+    .ays-notice-banner .modile-ddmenu-xs {
+        display: none;
+    }
+}
+
+
+/* ~~ Top Navigation Bar ~~ */
+
+/*How to use Submenu Style Start*/
+
+.ays-pd-home-main{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.ays-pd-home-main p{
+    color: #212529;
+    font-size: 18px;
+}
+
+.ays-pd-home-main ol{
+     color: #3a546f;
+}
+
+.ays-pd-home-main h2{
+    color: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.ays-pd-home-main fieldset{
+    border:1px solid #ccc;
+    padding:10px;
+    width:fit-content;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+.ays-pd-ol-container ul {
+    text-align: left;
+}
+
+.wrap h1.ays-pd-wrapper{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ays_heart_beat i.ays_fa{
+    color: red!important;
+    font-weight: bold;
+}
+
+.ays_heart_beat {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/*Home Submenu Style End*/
+
+ .card img{
+    width: 128px;
+    margin: auto;
+}
+
+.coming-soon span {
+    font-size: 25px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    min-height: 380px;
+}
+
+
+input.ays_pd_shortcode{
+    text-align: center;
+}
+
+div.ays_pd_containers{
+    text-align: center;
+    font-size: 65px;
+}
+
+p.ays-pd-subtitle{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.ays_help {
+    top: 1px;
+    position: relative;
+    cursor: help;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.ays_help i{
+    font-size: 14px !important;
+    color: #00a0d2 !important;
+}
+
+a.ays_help:hover{
+    text-decoration: none;
+}
+
+.ays_divider_left {
+    border-left: 1px solid #ccc;
+}
+
+select.ays-pd-select {
+    width: 200px;
+    height: 40px !important;
+}
+
+div#ays_default_sorting_box .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 35px !important;
+}
+
+div#ays_default_sorting_box .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px !important;
+}
+
+div#ays_default_sorting_box .select2-selection.select2-selection--single {
+    height: 40px !important;
+    border: 1px solid #ddd !important;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07) !important;
+}
+
+.color-alpha,
+.wp-picker-container .color-alpha {
+    height: 100% !important;
+}
+
+
+button:hover .color-alpha,
+button:active .color-alpha {
+    border-color: #999;
+}
+
+button:active .color-alpha {
+    box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, .5);
+}
+
+button:focus .color-alpha {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 3px rgba(0, 115, 170, .8);
+}
+
+
+.ays_fonts_size{
+    width: 65px;
+    max-width: 100%;
+}
+
+
+div#statistics div.ays-pd-reports-statistic-container {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 12px;
+    padding: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0%;
+    padding: 12px 12px 24px 24px;
+    /* max-width: 768px; */
+}
+
+
+.ays-collection-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 10px;
+    border-bottom: 1px solid beige;
+}
+
+.stat-right-div img{
+    width: 30px;
+    height: 80px;
+}
+
+.stat-count {
+    font-size: 30px;
+    color: cornflowerblue;
+    margin: 0 16px 1px 8px;
+}
+
+.stat-diff-count {
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+
+.ays_divider_left {
+    border-left: 1px solid #ccc;
+}
+
+div#statistics div.ays-pd-reports-stat-box > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+div#statistics div.ays-pd-reports-stat-box a img{
+    width: 50px;
+}
+
+div#statistics div.ays-pd-reports-stat-box p{
+    font-size: 30px;
+    color: cornflowerblue;
+    margin: 0 0px 1px 0px;
+}
+
+h1.wp-heading-inline{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+
+/*  */
+
+div.ays-pd-leaderboards-content div.ays-pd-lb-container{
+    width: 98%;
+}
+div.ays-pd-leaderboards-content div.ays-pd-lb-container table#ays-pd-lb-table{
+    width: 100%;
+}
+
+table#ays-pd-lb-table th,
+table#ays-pd-lb-table td{
+    background: #fff;
+    border-bottom: 1px solid #B8B8B8;
+    font-weight: normal !important;
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table#ays-pd-lb-table thead th{
+    background: #666;
+    color: white;
+}
+
+div.ays-pd-lb-container table#ays-pd-lb-table thead th::before{
+    display: none;
+}
+div.ays-pd-lb-container table#ays-pd-lb-table thead th::after{
+    display: none;
+}
+
+
+
+/*
+ * Pro features
+ * Start
+ */
+
+.only_pro{
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+.pro_features{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.pro_features.centered {    
+    align-items: center;
+    justify-content: center;
+}
+
+.pro_features p {
+    color: ghostwhite;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    background: rgba(0,0,0,.2);
+    border-radius: 3px;
+    margin: 0;
+}
+a.only_pro_lik,
+.pro_features p a {
+    color: #f50057 !important;
+    font-weight: 700;
+    transition: all .3s ease-in;
+}
+a.only_pro_lik:hover,
+.pro_features p a:hover{
+    color: #C51162 !important;
+    transition: all .3s ease-in;
+}
+
+/*
+ * Pro features
+ * End
+ */

@@ -1,0 +1,282 @@
+# Certificate Tracker for LearnDash Pot
+# Copyright (C) 2020 E|Learning Complete
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Certificate Tracker for "
+"LearnDash Pot v1.02.01\n"
+"POT-Creation-Date: "
+"2020-11-06 20:37-0300\n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.4.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"updater\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"test\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"includes/images\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"includes/js\n"
+
+#: includes/elc-ctid-certificate-edit.php:23
+msgid "ELC QR-Code options"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:96
+msgid "L (low)"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:97
+msgid "M (medium)"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:98
+msgid "Q (better)"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:99
+msgid "H (best)"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:105
+msgid "left"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:106
+msgid "right"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:110
+msgid "top"
+msgstr ""
+
+#: includes/elc-ctid-certificate-edit.php:111
+msgid "bottom"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:21
+msgid ""
+"Insert as a part of "
+"background"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:26
+msgid ""
+"If enabled the QR-Code "
+"will be inserted as a "
+"part of background. It "
+"will not alter/affect "
+"the text inserted in "
+"textarea above. "
+"<br><strong>DO NOT "
+"FORGET</strong> to "
+"remove any QR-Code "
+"shortcode(s) in "
+"certificate content "
+"(textarea above)."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:44
+msgid "Enable"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:65
+msgid ""
+"Enter valid URL to the "
+"certificate ID "
+"verification page."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:93
+msgid ""
+"If checked the Qr-Code "
+"will be clickable, when "
+"viewed on desktop and/or "
+"mobile devices."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:131
+msgid ""
+"Width and height of QR-"
+"Code in user units. "
+"<br>By default the TCPDF "
+"is set to millimeters "
+"(mm)."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:167
+msgid ""
+"Uniform (all sides), "
+"measured in QR-Code "
+"modules. <br>If QR-Code "
+"is placed over graphics "
+"it requires background "
+"(plain color) and clear "
+"space 'quiet zone' "
+"around it."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:199
+msgid "Horizontal align"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:203
+msgid ""
+"Horizontal alignment "
+"left or right. "
+"<br>Indicates insertion "
+"point relative to the qr-"
+"code."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:237
+msgid "Vertical align"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:241
+msgid ""
+"Vertical alignment top "
+"or bottom. <br>Indicates "
+"insertion point relative "
+"to the qr-code."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:274
+msgid "X position"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:278
+msgid ""
+"Horizontal position in "
+"user units. By default "
+"the TCPDF is set to "
+"millimeters (mm).<br> "
+"The position is measured "
+"from left or right side "
+"of document depending on "
+"'Horizontal align' "
+"setting."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:310
+msgid "Y position"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:314
+msgid ""
+"Vertical position in "
+"user units. By default "
+"the TCPDF is set to mm "
+"(millimeters).<br> The "
+"position is measured "
+"from top or bottom side "
+"of document depending on "
+"'Vertical align' setting."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:358
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:406
+msgid ""
+"Color in valid format:"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:361
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:409
+msgid ""
+"Hexadecimal (3 or 6 "
+"digits) e.g.: "
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:365
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:413
+msgid "RGB e.g.: "
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:369
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:417
+msgid "CMYK e.g.: "
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:373
+msgid ""
+"WEB color name e.g.: red."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:376
+msgid ""
+"Default: #FFF (black)"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:421
+msgid ""
+"WEB color name e.g.: "
+"yellow."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:424
+msgid ""
+"Default: none "
+"(transparent)"
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:454
+msgid ""
+"Black border (all "
+"sides), 1pt line-weight."
+msgstr ""
+
+#: includes/templates/elc-ctid-certificate-edit.tpl.php:492
+msgid ""
+"Advanced use only! "
+"<br>Error correction "
+"capability to restore "
+"data if the code is "
+"physically dirty or "
+"damaged. <br> For "
+"explanation see: <a href="
+"\"https://www.qrcode.com/"
+"en/about/"
+"error_correction.html\" "
+"target=\"_blank\">QR "
+"Code.com, Error "
+"correction feature</a> "
+"<br>Default: L (low)"
+msgstr ""

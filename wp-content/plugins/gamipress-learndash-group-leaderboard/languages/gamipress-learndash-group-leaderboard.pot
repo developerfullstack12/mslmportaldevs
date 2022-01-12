@@ -1,0 +1,228 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress - LearnDash Group Leaderboard\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-05-12 09:37+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-learndash-group-leaderboard.php:143
+#, php-format
+msgid "GamiPress - LearnDash Group Leaderboard requires %s, %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: gamipress-learndash-group-leaderboard.php:159
+#, php-format
+msgid "GamiPress - LearnDash Group Leaderboard requires %s or higher in order to enable multisite features. Please update your GamiPress install."
+msgstr ""
+
+#: includes/admin.php:43 includes/admin.php:187
+msgid "LearnDash Group Leaderboard"
+msgstr ""
+
+#: includes/admin.php:46
+msgid "Number of Users"
+msgstr ""
+
+#: includes/admin.php:47
+msgid "Number of users to display in the group leaderboard (0 to all group members)."
+msgstr ""
+
+#: includes/admin.php:56
+msgid "Metrics to track"
+msgstr ""
+
+#: includes/admin.php:57
+msgid "Choose the metrics with which group leaderboards will be ranked."
+msgstr ""
+
+#: includes/admin.php:63
+msgid "Period"
+msgstr ""
+
+#: includes/admin.php:64
+msgid "Filter metrics to track based on a specific period selected. By default \"None\", that will rank users based on their current earnings."
+msgstr ""
+
+#: includes/admin.php:65
+#, php-format
+msgid "<strong>Important:</strong> If you can't see any option, it means you need to update <a href=\"%s\" target=\"_blank\">GamiPress - Leaderboards</a> add-on."
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin.php:71
+msgid "Choose period start date. Leave blank to no filter by a start date (metrics will be filtered only to the end date)."
+msgstr ""
+
+#: includes/admin.php:72 includes/admin.php:78
+msgid "Accepts any valid PHP date format."
+msgstr ""
+
+#: includes/admin.php:72 includes/admin.php:78
+msgid "More information"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "End Date"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Choose period end date. Leave blank to no filter by an end date (metrics will be filtered from the start date to today)."
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Columns Order"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Columns"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Choose the columns to show. Drag and drop any option to reorder them."
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Avatar Size"
+msgstr ""
+
+#: includes/admin.php:96
+msgid "Size of the users avatars."
+msgstr ""
+
+#: includes/admin.php:105
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:63
+msgid "Show Search"
+msgstr ""
+
+#: includes/admin.php:106
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:64
+msgid "Display a search input."
+msgstr ""
+
+#: includes/admin.php:111
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:70
+msgid "Enable Sort"
+msgstr ""
+
+#: includes/admin.php:112
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:71
+msgid "Enable live column sorting."
+msgstr ""
+
+#: includes/admin.php:117
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:77
+msgid "Hide Administrators"
+msgstr ""
+
+#: includes/admin.php:118
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:78
+msgid "Hide website administrators."
+msgstr ""
+
+#: includes/admin.php:123
+msgid "Regenerate Group's Leaderboards"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "Click this button to launch an automatic process that will detect groups without a leaderboard assigned and will generate and assign a new one."
+msgstr ""
+
+#: includes/admin.php:144
+msgid "LearnDash Group"
+msgstr ""
+
+#: includes/admin.php:168
+msgid "Assigned to group"
+msgstr ""
+
+#: includes/admin.php:171
+msgid "Not assigned to any group"
+msgstr ""
+
+#: includes/ajax-functions.php:21
+msgid "All group's leaderboards has been regenerated successfully!"
+msgstr ""
+
+#: includes/functions.php:59 includes/learndash-groups.php:27
+#, php-format
+msgid "Group %s Leaderboard"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:19
+msgid "LearnDash User Groups Leaderboards"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:20
+#: includes/widgets/learndash-user-groups-leaderboards-widget.php:17
+msgid "Render all leaderboards of all user's groups."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:25
+msgid "Current User"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:26
+msgid "Show groups leaderboards of the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:31
+msgid "User"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:32
+msgid "Show groups leaderboards of a specific user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:38
+msgid "Excluded Groups"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:39
+msgid "Groups to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:40
+msgid "Comma-separated list of groups ids you want to exclude to being rendered."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:47
+msgid "Excluded Leaderboards"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:48
+msgid "Leaderboards to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:49
+msgid "Comma-separated list of leaderboards ids you want to exclude to being rendered."
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:56
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/shortcodes/gamipress_learndash_user_groups_leaderboards.php:57
+msgid "Display the leaderboard short description."
+msgstr ""
+
+#: includes/widgets/learndash-user-groups-leaderboards-widget.php:16
+msgid "GamiPress: LearnDash User Groups Leaderboards"
+msgstr ""

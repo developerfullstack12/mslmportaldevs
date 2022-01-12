@@ -1,0 +1,54 @@
+
+.ays_fa_pd {    
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ays_fa-check {
+    color: #69C7F1;
+}
+
+.ays_fonts_size{
+    /* font-size: 65px;     */
+}
+.ays_fa-check:before {
+    content: "\f00c";
+    font-weight: 400;
+}
+.ays_fa_ellipsis_h:before {
+    content: "\f141";
+    font-weight: 400;
+}
+
+.ays_fa_file-word:before {
+    content: "\f1c2";
+    font-weight: 400;
+}
+
+.ays_fa_layer-group:before {
+    content: "\f247";
+    font-weight: 400;
+}
+
+
+.ays_fa_user:before {
+    content: "\f0c0";
+    font-weight: 400;
+}
+
+.ays_fa_puzzle-piece:before {
+    content: "\f12e";
+    font-weight: 400;
+}
+
+.ays_fa-info-circle:before{
+    content: "\f05a";
+}
+
+.tooltip > .arrow {
+    left: calc(50% + 28px) !important;
+}

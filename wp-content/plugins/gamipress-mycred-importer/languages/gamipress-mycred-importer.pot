@@ -1,0 +1,232 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress myCRED Importer\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2018-04-23 12:23+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-mycred-importer.php:128
+#, php-format
+msgid "GamiPress - myCRED importer requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/tool.php:50
+msgid "This tool will migrate all myCRED stored data to GamiPress. All the new content will be <strong>appended</strong> to prevent override anything."
+msgstr ""
+
+#: includes/tool.php:51
+msgid "<strong>Important!</strong> Please backup your database before starting this process."
+msgstr ""
+
+#: includes/tool.php:52
+msgid "Read some important notes"
+msgstr ""
+
+#: includes/tool.php:54
+#, php-format
+msgid "<strong>About link clicks:</strong> To supply myCRED link clicks hooks, you can check the <a href=\"%s\" target=\"_blank\">GamiPress - Link</a> add-on."
+msgstr ""
+
+#: includes/tool.php:55
+#, php-format
+msgid "<strong>About video views:</strong> To supply myCRED video views hooks, you can check the <a href=\"%s\" target=\"_blank\">GamiPress - Multimedia Content</a> add-on."
+msgstr ""
+
+#: includes/tool.php:56
+#, php-format
+msgid "<strong>About buyCRED:</strong> To supply buyCRED, you can check the <a href=\"%s\" target=\"_blank\">GamiPress - Purchases</a> add-on."
+msgstr ""
+
+#: includes/tool.php:57
+#, php-format
+msgid "<strong>About sell content:</strong> To supply myCRED sell content, you can check the <a href=\"%s\" target=\"_blank\">GamiPress - Restrict Content</a> add-on."
+msgstr ""
+
+#: includes/tool.php:58
+#, php-format
+msgid "<strong>About notifications:</strong> To supply myCRED notifications, you can check the <a href=\"%s\" target=\"_blank\">GamiPress - Notifications</a> add-on."
+msgstr ""
+
+#: includes/tool.php:59
+#, php-format
+msgid "<strong>About specific trigger events:</strong> For specific trigger events (bbPress, BuddyPress, WooCommerce, Gravitiy Forms, etc ) you need to install each specific <a href=\"%s\" target=\"_blank\">GamiPress integration</a>. <strong>Note:</strong> All GamiPress integrations are completely free!"
+msgstr ""
+
+#: includes/tool.php:64
+msgid "myCRED Points Types"
+msgstr ""
+
+#: includes/tool.php:65
+msgid "myCRED points types will be migrated as new GamiPress points types."
+msgstr ""
+
+#: includes/tool.php:66
+msgid "<strong>Note:</strong> User points balance from myCRED will be added to their current points balance."
+msgstr ""
+
+#: includes/tool.php:70
+msgid "Override User Points Balance"
+msgstr ""
+
+#: includes/tool.php:71
+msgid "Check this option to keep myCRED points balance instead of sum them to the current points balance."
+msgstr ""
+
+#: includes/tool.php:76
+msgid "Import myCRED Badges"
+msgstr ""
+
+#: includes/tool.php:77
+msgid "Check this option to import myCRED badges as GamiPress achievements."
+msgstr ""
+
+#: includes/tool.php:82
+msgid "myCRED Badges to"
+msgstr ""
+
+#: includes/tool.php:83
+msgid "Choose the achievement type you want to import the myCRED badges."
+msgstr ""
+
+#: includes/tool.php:84
+#, php-format
+msgid "No achievement types found! To import myCRED badges, please create an <a href=\"%s\">achievement type</a>."
+msgstr ""
+
+#: includes/tool.php:89
+msgid "myCRED badge requirements as events"
+msgstr ""
+
+#: includes/tool.php:90
+msgid "Check this option if you want to turn a myCRED requirement like \"Get 10 points by commenting\" to a requirement like \"Comment 10 times\"."
+msgstr ""
+
+#: includes/tool.php:91
+msgid "If you don't check this option, a myCRED requirement like \"Get 10 points by commenting\" will be turned as to a requirement like \"Earn 10 points\"."
+msgstr ""
+
+#: includes/tool.php:92
+msgid "More information"
+msgstr ""
+
+#: includes/tool.php:93
+msgid "myCRED badge requirements are based on earning an amount of points by perform a specific action (eg: Get 10 points by commenting)."
+msgstr ""
+
+#: includes/tool.php:94
+msgid "GamiPress setup achievement requirements based on events (eg: Comment 10 times, Earn 10 points, etc)."
+msgstr ""
+
+#: includes/tool.php:99
+msgid "Import myCRED Ranks"
+msgstr ""
+
+#: includes/tool.php:100
+msgid "Check this option to import myCRED ranks as GamiPress ranks."
+msgstr ""
+
+#: includes/tool.php:112
+#, php-format
+msgid "%s Ranks to"
+msgstr ""
+
+#: includes/tool.php:113
+#, php-format
+msgid "Choose the rank type you want to import the %s ranks."
+msgstr ""
+
+#: includes/tool.php:114
+#, php-format
+msgid "No rank types found! To import %s ranks, please create some <a href=\"%s\">rank types</a>."
+msgstr ""
+
+#: includes/tool.php:123
+msgid "Import User Earnings"
+msgstr ""
+
+#: includes/tool.php:124
+msgid "Check this option to import user earned achievements, ranks and points."
+msgstr ""
+
+#: includes/tool.php:130
+msgid "Import Logs"
+msgstr ""
+
+#: includes/tool.php:131
+msgid "Check this option to import logs."
+msgstr ""
+
+#: includes/tool.php:138
+msgid "Start Importing Data"
+msgstr ""
+
+#: includes/tool.php:144
+msgid "myCRED Importer"
+msgstr ""
+
+#: includes/tool.php:200 includes/tool.php:334 includes/tool.php:557
+#: includes/tool.php:684 includes/tool.php:896
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/tool.php:321
+msgid "myCRED points has been migrated successfully."
+msgstr ""
+
+#: includes/tool.php:352
+msgid "You need to choose a valid achievement type."
+msgstr ""
+
+#: includes/tool.php:388
+#, php-format
+msgid "Level %d"
+msgstr ""
+
+#: includes/tool.php:544
+msgid "myCRED achievements has been migrated successfully."
+msgstr ""
+
+#: includes/tool.php:670
+msgid "myCRED ranks has been migrated successfully."
+msgstr ""
+
+#: includes/tool.php:877
+#, php-format
+msgid "Remaining users %d"
+msgstr ""
+
+#: includes/tool.php:881
+msgid "myCRED earnings has been migrated successfully."
+msgstr ""
+
+#: includes/tool.php:941
+msgid "Log imported from myCRED"
+msgstr ""
+
+#: includes/tool.php:950
+msgid "(no trigger)"
+msgstr ""
+
+#: includes/tool.php:1035
+#, php-format
+msgid "Remaining logs %d"
+msgstr ""
+
+#: includes/tool.php:1039
+msgid "myCRED logs has been migrated successfully."
+msgstr ""

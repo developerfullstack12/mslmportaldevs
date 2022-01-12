@@ -1,0 +1,68 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Certificate Verifier for LearnDash\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-17 22:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: elc-ctid-verifier.php:153
+msgid "First Name"
+msgstr ""
+
+#: elc-ctid-verifier.php:153
+msgid "Last Name"
+msgstr ""
+
+#: elc-ctid-verifier.php:154
+msgid "Course or Quiz Title"
+msgstr ""
+
+#: elc-ctid-verifier.php:155
+msgid "Completion Date"
+msgstr ""
+
+#: elc-ctid-verifier.php:157
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: elc-ctid-verifier.php:167
+msgid "No Certificates Found"
+msgstr ""
+
+#: elc-ctid-verifier.php:205
+msgid "Search"
+msgstr ""
+
+#: elc-ctid-verifier.php:211
+msgid "Search for other certificate ID"
+msgstr ""
+
+#. Name of the plugin
+msgid "Certificate Verifier for LearnDash"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides a shortcode that renders a form for certificate verification."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://elearningcomplete.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Patrick F. Kellogg and Michael Dajewski"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.elearningcomplete.com"
+msgstr ""

@@ -1,0 +1,669 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gamipress LearnDash Integration\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2021-09-16 12:30+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-learndash.php:137
+#, php-format
+msgid "GamiPress - LearnDash integration requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:24
+msgid "LearnDash integration"
+msgstr ""
+
+#: includes/admin/recount-activity.php:23 includes/triggers.php:20
+msgid "LearnDash"
+msgstr ""
+
+#: includes/admin/recount-activity.php:24
+msgid "Recount quizzes completed"
+msgstr ""
+
+#: includes/admin/recount-activity.php:25
+msgid "Recount topics completed"
+msgstr ""
+
+#: includes/admin/recount-activity.php:26
+msgid "Recount lessons completed"
+msgstr ""
+
+#: includes/admin/recount-activity.php:27
+msgid "Recount courses completed"
+msgstr ""
+
+#: includes/admin/recount-activity.php:61
+#: includes/admin/recount-activity.php:62
+#: includes/admin/recount-activity.php:160
+#: includes/admin/recount-activity.php:161
+#: includes/admin/recount-activity.php:251
+#: includes/admin/recount-activity.php:252
+#: includes/admin/recount-activity.php:335
+#: includes/admin/recount-activity.php:336
+#, php-format
+msgid "%d users found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:105
+#, php-format
+msgid "[Complete quiz] Quiz: %s User: %s Course: %s Quiz Score: %s"
+msgstr ""
+
+#: includes/admin/recount-activity.php:112
+#, php-format
+msgid "[Complete quiz] Quiz: %s User: %s Quiz Score: %s"
+msgstr ""
+
+#: includes/admin/recount-activity.php:126
+#: includes/admin/recount-activity.php:217
+#: includes/admin/recount-activity.php:301
+#: includes/admin/recount-activity.php:381
+#, php-format
+msgid "%d remaining users to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:198
+#, php-format
+msgid "[Complete topic] Topic: %s User: %s Lesson: %s Course: %s"
+msgstr ""
+
+#: includes/admin/recount-activity.php:285
+#, php-format
+msgid "[Complete lesson] Lesson: %s User: %s Course: %s"
+msgstr ""
+
+#: includes/admin/recount-activity.php:367
+#, php-format
+msgid "[Complete course] Course: %s User: %s"
+msgstr ""
+
+#: includes/triggers.php:23
+msgid "Complete a quiz"
+msgstr ""
+
+#: includes/triggers.php:24
+msgid "Complete a specific quiz"
+msgstr ""
+
+#: includes/triggers.php:25
+msgid "Complete a quiz of a specific course"
+msgstr ""
+
+#: includes/triggers.php:27
+msgid "Complete a quiz of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:28
+msgid "Complete a quiz of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:31
+msgid "Complete a quiz with a minimum percent grade"
+msgstr ""
+
+#: includes/triggers.php:32
+msgid "Complete a specific quiz with a minimum percent grade"
+msgstr ""
+
+#: includes/triggers.php:33
+msgid "Complete a quiz of a specific course with a minimum percent grade"
+msgstr ""
+
+#: includes/triggers.php:35
+msgid "Complete a quiz of a course of a category with a minimum percent grade"
+msgstr ""
+
+#: includes/triggers.php:36
+msgid "Complete a quiz of a course of a tag with a minimum percent grade"
+msgstr ""
+
+#: includes/triggers.php:39
+msgid "Complete a quiz with a maximum percent grade"
+msgstr ""
+
+#: includes/triggers.php:40
+msgid "Complete a specific quiz with a maximum percent grade"
+msgstr ""
+
+#: includes/triggers.php:41
+msgid "Complete a quiz of a specific course with a maximum percent grade"
+msgstr ""
+
+#: includes/triggers.php:43
+msgid "Complete a quiz of a course of a category with a maximum percent grade"
+msgstr ""
+
+#: includes/triggers.php:44
+msgid "Complete a quiz of a course of a tag with a maximum percent grade"
+msgstr ""
+
+#: includes/triggers.php:47
+msgid "Complete a quiz on a range of percent grade"
+msgstr ""
+
+#: includes/triggers.php:48
+msgid "Complete a specific quiz on a range of percent grade"
+msgstr ""
+
+#: includes/triggers.php:49
+msgid "Complete a quiz of a specific course on a range of percent grade"
+msgstr ""
+
+#: includes/triggers.php:51
+msgid "Complete a quiz of a course of a category on a range of percent grade"
+msgstr ""
+
+#: includes/triggers.php:52
+msgid "Complete a quiz of a course of a tag on a range of percent grade"
+msgstr ""
+
+#: includes/triggers.php:55
+msgid "Successfully pass a quiz"
+msgstr ""
+
+#: includes/triggers.php:56
+msgid "Successfully pass a specific quiz"
+msgstr ""
+
+#: includes/triggers.php:57
+msgid "Successfully pass a quiz of a specific course"
+msgstr ""
+
+#: includes/triggers.php:59
+msgid "Successfully pass a quiz of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:60
+msgid "Successfully pass a quiz of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:63
+msgid "Fail a quiz"
+msgstr ""
+
+#: includes/triggers.php:64
+msgid "Fail a specific quiz"
+msgstr ""
+
+#: includes/triggers.php:65
+msgid "Fail a quiz of a specific course"
+msgstr ""
+
+#: includes/triggers.php:67
+msgid "Fail a quiz of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:68
+msgid "Fail a quiz of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:71
+msgid "Complete a topic"
+msgstr ""
+
+#: includes/triggers.php:72
+msgid "Complete a specific topic"
+msgstr ""
+
+#: includes/triggers.php:74
+msgid "Complete a topic of a category"
+msgstr ""
+
+#: includes/triggers.php:75
+msgid "Complete a topic of a tag"
+msgstr ""
+
+#: includes/triggers.php:76
+msgid "Complete a topic of a specific course"
+msgstr ""
+
+#: includes/triggers.php:78
+msgid "Complete a topic of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:79
+msgid "Complete a topic of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:82
+msgid "Upload an assignment"
+msgstr ""
+
+#: includes/triggers.php:83
+msgid "Upload an assignment to a specific lesson"
+msgstr ""
+
+#: includes/triggers.php:85
+msgid "Upload an assignment to a lesson of a category"
+msgstr ""
+
+#: includes/triggers.php:86
+msgid "Upload an assignment to a lesson of a tag"
+msgstr ""
+
+#: includes/triggers.php:87
+msgid "Upload an assignment to a specific course"
+msgstr ""
+
+#: includes/triggers.php:89
+msgid "Upload an assignment to a course of a category"
+msgstr ""
+
+#: includes/triggers.php:90
+msgid "Upload an assignment to a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:91
+msgid "Approve an assignment"
+msgstr ""
+
+#: includes/triggers.php:92
+msgid "Approve an assignment of a specific lesson"
+msgstr ""
+
+#: includes/triggers.php:94
+msgid "Approve an assignment of a lesson of a category"
+msgstr ""
+
+#: includes/triggers.php:95
+msgid "Approve an assignment of a lesson of a tag"
+msgstr ""
+
+#: includes/triggers.php:96
+msgid "Approve an assignment of a specific course"
+msgstr ""
+
+#: includes/triggers.php:98
+msgid "Approve an assignment of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:99
+msgid "Approve an assignment of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:102
+msgid "Complete a lesson"
+msgstr ""
+
+#: includes/triggers.php:103
+msgid "Complete a specific lesson"
+msgstr ""
+
+#: includes/triggers.php:105
+msgid "Complete a lesson of a category"
+msgstr ""
+
+#: includes/triggers.php:106
+msgid "Complete a lesson of a tag"
+msgstr ""
+
+#: includes/triggers.php:107
+msgid "Complete a lesson of a specific course"
+msgstr ""
+
+#: includes/triggers.php:109
+msgid "Complete a lesson of a course of a category"
+msgstr ""
+
+#: includes/triggers.php:110
+msgid "Complete a lesson of a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:113
+msgid "Enroll in a course"
+msgstr ""
+
+#: includes/triggers.php:114
+msgid "Enroll in a specific course"
+msgstr ""
+
+#: includes/triggers.php:116
+msgid "Enroll in a course of a category"
+msgstr ""
+
+#: includes/triggers.php:117
+msgid "Enroll in a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:118
+msgid "Complete a course"
+msgstr ""
+
+#: includes/triggers.php:119
+msgid "Complete a specific course"
+msgstr ""
+
+#: includes/triggers.php:121
+msgid "Complete a course of a category"
+msgstr ""
+
+#: includes/triggers.php:122
+msgid "Complete a course of a tag"
+msgstr ""
+
+#: includes/triggers.php:125
+msgid "Join any group"
+msgstr ""
+
+#: includes/triggers.php:126
+msgid "Join a specific group"
+msgstr ""
+
+#: includes/triggers.php:208
+#, php-format
+msgid "Completed a quiz with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:212
+#, php-format
+msgid "Complete the quiz %s with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:216
+#, php-format
+msgid "Complete a quiz of the course %s with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:221
+#, php-format
+msgid "Completed a quiz with a maximum score of %d"
+msgstr ""
+
+#: includes/triggers.php:225
+#, php-format
+msgid "Complete the quiz %s with a maximum score of %d"
+msgstr ""
+
+#: includes/triggers.php:229
+#, php-format
+msgid "Complete a quiz of the course %s with a maximum score of %d"
+msgstr ""
+
+#: includes/triggers.php:234
+#, php-format
+msgid "Completed a quiz with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:238
+#, php-format
+msgid "Complete the quiz %s with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:242
+#, php-format
+msgid "Complete a quiz of the course %s with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:247
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:250
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" category with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:253
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" category with a maximum score of %d"
+msgstr ""
+
+#: includes/triggers.php:256
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" category with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:259
+#, php-format
+msgid "Pass a quiz of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:262
+#, php-format
+msgid "Fail a quiz of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:265
+#, php-format
+msgid "Complete a topic of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:268
+#, php-format
+msgid "Upload an assignment to a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:271
+#, php-format
+msgid "Approve an assignment of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:274
+#, php-format
+msgid "Complete a lesson of a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:277
+#, php-format
+msgid "Enroll in a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:280
+#, php-format
+msgid "Complete a course of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:285
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:288
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" tag with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:291
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" tag with a maximum score of %d"
+msgstr ""
+
+#: includes/triggers.php:294
+#, php-format
+msgid "Complete a quiz of a course of \"%s\" tag with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:297
+#, php-format
+msgid "Pass a quiz of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:300
+#, php-format
+msgid "Fail a quiz of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:303
+#, php-format
+msgid "Complete a topic of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:306
+#, php-format
+msgid "Upload an assignment to a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:309
+#, php-format
+msgid "Approve an assignment of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:312
+#, php-format
+msgid "Complete a lesson of a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:315
+#, php-format
+msgid "Enroll in a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:318
+#, php-format
+msgid "Complete a course of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:323
+#, php-format
+msgid "Complete a topic of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:328
+#, php-format
+msgid "Complete a topic of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:333
+#, php-format
+msgid "Upload an assignment to a lesson of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:336
+#, php-format
+msgid "Approve an assignment of a lesson of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:339
+#, php-format
+msgid "Complete a lesson of \"%s\" category"
+msgstr ""
+
+#: includes/triggers.php:344
+#, php-format
+msgid "Upload an assignment to a lesson of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:347
+#, php-format
+msgid "Approve an assignment of a lesson of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:350
+#, php-format
+msgid "Complete a lesson of \"%s\" tag"
+msgstr ""
+
+#: includes/triggers.php:380
+msgid "any"
+msgstr ""
+
+#: includes/triggers.php:395
+#, php-format
+msgid "Complete the quiz %s"
+msgstr ""
+
+#: includes/triggers.php:396
+#, php-format
+msgid "Complete any quiz of the course %s"
+msgstr ""
+
+#: includes/triggers.php:397
+#, php-format
+msgid "Pass the quiz %s"
+msgstr ""
+
+#: includes/triggers.php:398
+#, php-format
+msgid "Pass a quiz of the course %s"
+msgstr ""
+
+#: includes/triggers.php:399
+#, php-format
+msgid "Fail the quiz %s"
+msgstr ""
+
+#: includes/triggers.php:400
+#, php-format
+msgid "Fail a quiz of the course %s"
+msgstr ""
+
+#: includes/triggers.php:403
+#, php-format
+msgid "Complete the topic %s"
+msgstr ""
+
+#: includes/triggers.php:404
+#, php-format
+msgid "Complete a topic of the course %s"
+msgstr ""
+
+#: includes/triggers.php:407
+#, php-format
+msgid "Upload an assignment to the lesson %s"
+msgstr ""
+
+#: includes/triggers.php:408
+#, php-format
+msgid "Upload an assignment to the course %s"
+msgstr ""
+
+#: includes/triggers.php:409
+#, php-format
+msgid "Approve an assignment of the lesson %s"
+msgstr ""
+
+#: includes/triggers.php:410
+#, php-format
+msgid "Approve an assignment of the course %s"
+msgstr ""
+
+#: includes/triggers.php:413
+#, php-format
+msgid "Complete the lesson %s"
+msgstr ""
+
+#: includes/triggers.php:414
+#, php-format
+msgid "Complete a lesson of the course %s"
+msgstr ""
+
+#: includes/triggers.php:417
+#, php-format
+msgid "Enroll in course %s"
+msgstr ""
+
+#: includes/triggers.php:418
+#, php-format
+msgid "Complete the course %s"
+msgstr ""
+
+#: includes/triggers.php:421
+#, php-format
+msgid "Join %s group"
+msgstr ""
+
+#: includes/triggers.php:779
+msgid "Grade of completion"
+msgstr ""
+
+#: includes/triggers.php:780
+msgid "Grade of completion the user got on complete this quiz."
+msgstr ""

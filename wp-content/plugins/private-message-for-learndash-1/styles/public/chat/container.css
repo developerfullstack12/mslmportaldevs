@@ -1,0 +1,14 @@
+.imm-chat-container {
+  height: 560px;
+  @apply imm-rounded-xl imm-flex imm-relative;
+}
+
+.imm-chat-container--main-color {
+  background-color: rgba(var(--imm-container-color), 1);
+  color: rgba(var(--imm-text-color), 1);
+}
+
+.imm-chat-paper {
+  background-color: rgba(var(--imm-paper-color), 0.9);
+  @apply imm-rounded-xl imm-box-border;
+}

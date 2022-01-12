@@ -1,0 +1,329 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Conditional Notifications\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-02-28 10:31+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-conditional-notifications.php:139
+#, php-format
+msgid "GamiPress - Conditional Notifications requires %s (%s or higher) and %s in order to work. Please install and activate it."
+msgstr ""
+
+#: includes/admin.php:23 includes/admin.php:71 includes/custom-tables.php:25
+#: includes/custom-tables.php:31
+msgid "Conditional Notifications"
+msgstr ""
+
+#: includes/admin.php:44
+msgid "GamiPress Conditional Notifications"
+msgstr ""
+
+#: includes/admin.php:47
+msgid "License"
+msgstr ""
+
+#: includes/conditional-notifications.php:21
+msgid "Active"
+msgstr ""
+
+#: includes/conditional-notifications.php:22
+msgid "Inactive"
+msgstr ""
+
+#: includes/conditional-notifications.php:37
+msgid "Reach a points balance"
+msgstr ""
+
+#: includes/conditional-notifications.php:38
+msgid "Unlock a specific achievement"
+msgstr ""
+
+#: includes/conditional-notifications.php:39
+msgid "Unlock any achievement of type"
+msgstr ""
+
+#: includes/conditional-notifications.php:40
+msgid "Unlock all achievements of type"
+msgstr ""
+
+#: includes/conditional-notifications.php:41
+msgid "Reach a specific rank"
+msgstr ""
+
+#: includes/custom-tables.php:24
+msgid "Conditional Notification"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:40
+#: includes/custom-tables/conditional-notifications.php:153
+#: includes/custom-tables/conditional-notifications.php:157
+#: includes/custom-tables/conditional-notifications.php:189
+msgid "Title"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:41
+msgid "Max. Displays"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:42
+#: includes/custom-tables/conditional-notifications.php:322
+msgid "Status"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:43
+#: includes/custom-tables/conditional-notifications.php:327
+msgid "Date"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:98
+#, php-format
+msgid "Unlimited (%d displays)"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:160
+msgid "Enter title here"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:185
+msgid "Notification Configuration"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:191
+msgid "Notification title (leave blank to hide it). For a list available tags, check next field description."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:194
+msgid "Content"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:195
+msgid "Notification content. Available tags:"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:208
+msgid "Notification Style &amp; Sound Effects"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:215
+msgid "Show notification sound effect"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:216
+msgid "Upload, choose or paste the URL of the notification sound to play when this notification gets displayed (leave blank to keep sound effect configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:219
+#: includes/custom-tables/conditional-notifications.php:228
+msgid "Add or Upload Audio"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:224
+msgid "Hide notification sound effect"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:225
+msgid "Upload, choose or paste the URL of the notification sound to play when this notification gets hidden (leave blank to keep sound effect configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:236
+msgid "Background Color"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:237
+msgid "Set the notification background color (leave blank to keep background color configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:242
+msgid "Title Color"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:243
+msgid "Set the text color of the notification title (leave blank to keep title color configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:248
+msgid "Text Color"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:249
+msgid "Set the text color of the notification content (leave blank to keep text color configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:254
+msgid "Link Color"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:255
+msgid "Set the text color of the notification link (leave blank to keep link color configured from settings)."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:268
+msgid "Condition Configuration"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:272
+msgid "Condition"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:277
+msgid "Points"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:281
+msgid "Achievement Type"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:288
+msgid "Achievement"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:293
+msgid "Select an achievement"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:299
+msgid "Rank"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:304
+msgid "Select a rank"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:318
+msgid "Details"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:328
+msgid "Enter the conditional notification creation date. This field is important since first notification will be displayed <strong>after</strong> date selected."
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:332
+msgid "Maximum Displays"
+msgstr ""
+
+#: includes/custom-tables/conditional-notifications.php:333
+msgid "Maximum number of times that this notification will be displayed (set 0 for no maximum)."
+msgstr ""
+
+#: includes/template-functions.php:43
+msgid "User Tags"
+msgstr ""
+
+#: includes/template-functions.php:46
+msgid "User display name."
+msgstr ""
+
+#: includes/template-functions.php:47
+msgid "User first name."
+msgstr ""
+
+#: includes/template-functions.php:48
+msgid "User last name."
+msgstr ""
+
+#: includes/template-functions.php:49
+msgid "User ID (useful for shortcodes that user ID can be passed as attribute)."
+msgstr ""
+
+#: includes/template-functions.php:53
+msgid "Points Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:57
+#, php-format
+msgid "User %s balance."
+msgstr ""
+
+#: includes/template-functions.php:58
+#, php-format
+msgid "%s label. Singular or plural is based on user balance."
+msgstr ""
+
+#: includes/template-functions.php:63
+msgid "Achievement Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:68
+#, php-format
+msgid "ID of last %s ID user has earned."
+msgstr ""
+
+#: includes/template-functions.php:69
+#, php-format
+msgid "Title of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:70
+#, php-format
+msgid "URL to the last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:71
+#, php-format
+msgid "Link to the last %s user has earned with the title as text."
+msgstr ""
+
+#: includes/template-functions.php:72
+#, php-format
+msgid "Excerpt of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:73
+#, php-format
+msgid "Featured image of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:74
+#, php-format
+msgid "Congratulations text of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:78
+msgid "Rank Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:83
+#, php-format
+msgid "ID of user %s."
+msgstr ""
+
+#: includes/template-functions.php:84
+#, php-format
+msgid "Title of user %s."
+msgstr ""
+
+#: includes/template-functions.php:85
+#, php-format
+msgid "URL to the user %s."
+msgstr ""
+
+#: includes/template-functions.php:86
+#, php-format
+msgid "Link to the user %s with the title as text."
+msgstr ""
+
+#: includes/template-functions.php:87
+#, php-format
+msgid "Excerpt of user %s."
+msgstr ""
+
+#: includes/template-functions.php:88
+#, php-format
+msgid "Featured image of user %s."
+msgstr ""

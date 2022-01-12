@@ -1,0 +1,29 @@
+.imm-theme-classic {
+  --imm-container-color: 242, 243, 251;
+  --imm-paper-color: 255, 255, 255;
+  --imm-text-color: 0, 0, 0;
+  --imm-text-active-color: 29, 124, 187;
+  --imm-time-color: 0, 0, 0;
+  --imm-bg-message-1-color: 29, 124, 187;
+  --imm-bg-message-2-color: 242, 243, 251;
+  --imm-bg-message-box-color: 255, 255, 255;
+  --imm-button-send-color: 0, 0, 0;
+  --imm-notification-color: 29, 124, 187;
+  --imm-cancel-color: 234, 86, 86;
+  --imm-success-color: 162, 228, 162;
+}
+
+.imm-theme-styled {
+  --imm-container-color: 117, 102, 163;
+  --imm-paper-color: 138,129,177;
+  --imm-text-color: 255, 255, 255;
+  --imm-text-active-color: 251, 170, 116;
+  --imm-time-color: 255, 255, 255;
+  --imm-bg-message-1-color: 251, 170, 116;
+  --imm-bg-message-2-color: 117, 102, 163;
+  --imm-bg-message-box-color: 255, 255, 255;
+  --imm-button-send-color: 65, 194, 180;
+  --imm-notification-color: 251, 170, 116;
+  --imm-cancel-color: 219, 59, 97;
+  --imm-success-color: 21, 205, 168;
+}

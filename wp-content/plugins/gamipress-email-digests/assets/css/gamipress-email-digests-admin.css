@@ -1,0 +1,98 @@
+/* Email Digest Edit Screen */
+
+/* Make title appear like WordPress title */
+#gamipress-email-digest-title.postbox {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+#gamipress-email-digest-title .handlediv,
+#gamipress-email-digest-title .hndle,
+#gamipress-email-digest-title .cmb-th {
+    display: none;
+}
+
+#gamipress-email-digest-title .inside {
+    padding: 0;
+    margin: 0;
+}
+
+#gamipress-email-digest-title .cmb-td {
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0;
+}
+
+#gamipress-email-digest-title .cmb-td input {
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: none;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+/* Editor */
+#gamipress-email-digest-email .cmb-td,
+#gamipress-email-digest-email .cmb2-id-subject .cmb-td input {
+    width: 100%;
+}
+
+#wp-content-editor-tools {
+    padding-top: 0;
+    background-color: transparent;
+}
+
+/* Side boxes */
+#post-body.columns-2 #postbox-container-1 #gamipress-email-digest-details input {
+    width: 100%;
+}
+
+#post-body.columns-2 #postbox-container-1 #gamipress-email-digest-details .cmb-th,
+#post-body.columns-2 #postbox-container-1 #gamipress-email-digest-details .cmb-td {
+    padding: 0;
+}
+
+#side-sortables .cmb-td:not(.cmb-remove-row), #side-sortables .cmb-th,
+#side-sortables .cmb-td:not(.cmb-remove-row), #side-sortables .cmb-th + .cmb-td {
+    padding: 0;
+}
+
+/* Actions */
+#misc-publishing-actions {
+    padding: 0;
+}
+
+.email-digest-action .dashicons {
+    color: #82878c;
+    padding-right: 3px;
+}
+
+/* Sends */
+#gamipress-email-digest-sends .inside,
+#gamipress-email-digest-sends .cmb-td {
+    padding: 0;
+    margin: 0;
+}
+
+#gamipress-email-digest-sends .inside .cmb-td table {
+    border: none;
+}
+
+.email-digest-send .email-digest-send-date {
+    color: #72777c;
+    font-size: 12px;
+}
+
+/* Pattern tag list */
+.gamipress-email-digests-pattern-tags-list li strong {
+    color: #444;
+}
+
+.gamipress-email-digests-pattern-tags-list li span {
+    color: #444;
+    font-style: normal;
+}

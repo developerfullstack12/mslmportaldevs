@@ -1,0 +1,54 @@
+@import "./chat/index.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@layer utilities {
+  @variants responsive {
+
+    .imm-no-scrollbar::-webkit-scrollbar {
+      height: 8px;
+      width: 8px;
+      background-color: rgba(var(--imm-container-color), 1);
+    }
+
+    .imm-no-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(var(--imm-paper-color), 0.25);
+      -webkit-border-radius: 1ex;
+    }
+
+    .imm-no-scrollbar::-webkit-scrollbar-corner {
+      background: rgba(var(--imm-container-color), 0.25);
+    }
+
+    .imm-no-scrollbar {
+      /* -ms-overflow-style: none;  IE and Edge */
+      /* scrollbar-width: none;  Firefox */
+      scrollbar-color: rgba(var(--imm-paper-color), 0.25) transparent;
+    }
+
+    .imm-hidden-scrollbar::-webkit-scrollbar {
+      display:none;
+    }
+
+    .imm-hidden-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /*Firefox */
+    }
+
+    .imm-no-default-button {
+      text-transform: none;
+      line-height: inherit;
+      color: inherit;
+      cursor: pointer;
+      -webkit-appearance: button;
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+      border: 0 solid #e5e7eb;
+    }
+  }
+}

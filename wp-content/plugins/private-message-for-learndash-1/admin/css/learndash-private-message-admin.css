@@ -1,0 +1,36 @@
+.ldpm-admin-header {
+    font-weight: 400;
+}
+
+#ldpm-user-messages {
+    display: none;
+    margin-top: 20px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+#ldpm-user-messages table {
+    border-collapse: collapse;
+}
+
+#ldpm-user-messages table thead {
+    background: #2C3337;
+    color: #fff;
+}
+
+#ldpm-user-messages table tr:nth-child(even) {
+    background: rgb(235, 235, 235);
+}
+
+#ldpm-user-messages table th {
+    padding: 12px;
+    text-align: left;
+    min-width: 170px;
+}
+
+#ldpm-user-messages table td {
+    padding: 12px;
+    width: 100%;
+}

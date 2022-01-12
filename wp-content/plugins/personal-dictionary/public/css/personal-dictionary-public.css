@@ -1,0 +1,858 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+div#ays-pd-box_id {
+    margin-bottom: 20px;
+}
+
+div#ays-pd-box_id * {
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+div#ays-pd-box_id > div[id=ays-pd-container_id]{
+    background-color: #fff ;
+    display: flex;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37) ;
+    padding-bottom: 6px ;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    word-wrap: break-word;
+    min-width: 250px;
+    max-width: 100%;
+    min-height: 250px;
+    height: 100%;
+    margin-top: 0;
+}
+
+div#ays-pd-box_id .ays-pd-header-wrap {
+    display: flex;
+}
+
+div#ays-pd-box_id .ays-pd-header-before {
+    width: 20%;
+}
+
+div#ays-pd-box_id #ays-pd-header_id {
+    width: 80%;
+    height: 50px;
+    background-color: #3f72af;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding: 0 5px;
+    font-size: 25px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+div#ays-pd-box_id div#ays-pd-container_id input[type='text']{
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    padding: 7px 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+div#ays-pd-box_id input[type='button'] , div#ays-pd-box_id input[type='submit']{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    height: auto;
+    letter-spacing: 0;
+    background-color: #3f72af;
+    font-weight: 400;
+    line-height: 1;
+    box-shadow: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-transform: capitalize;
+}
+div#ays-pd-box_id #ays-pd-header_id div.ays-pd-header_title{
+    display: flex;
+    align-items: center;    
+}
+
+div#ays-pd-box_id #ays-pd-header_id div.ays-pd-header_title h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 5px;
+    padding: 0;
+    color: #fff;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div#ays-pd-box_id div#ays-pd-container_id div.ays-pd-nav-menu{
+    width: 20%;
+    /* border-right: 1px solid #ccc; */
+    padding: 0 4px;
+}
+
+div#ays-pd-box_id div#ays-pd-container_id div.ays-pd-nav-menu a.ays-pd-nav-tab:hover{
+    color: #fff;
+    box-shadow: unset;
+    text-decoration: underline;
+    
+}
+
+div#ays-pd-box_id div#ays-pd-container_id div.ays-pd-nav-menu .ays-pd-nav-tab{
+    display: block;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background-color: #3f72af;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 5px;
+    outline: none;
+    box-shadow: unset;
+}
+
+div#ays-pd-box_id div#ays-pd-container_id .ays-pd-content {
+    width: 80%;
+    position: relative;
+    min-height: 500px;
+    max-height: 600px;
+    border: 1px solid #ccc;
+}
+
+div#ays-pd-box_id div#ays-pd-container_id .ays-pd-content div.ays-pd-content-div {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+
+div#ays-pd-box_id div#ays-pd-container_id .ays-pd-content.ays-pd-content-groups .ays-pd-tab-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+div#ays-pd-box_id .ays_display_none{
+    display: none !important;
+}
+
+div#ays-pd-box_id .ays_display_block{
+    display: block;
+}
+
+#ays-pd-header_id .ays-pd-add_group_btn{
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+div.ays-pd-group-tab-words .ays-pd-word_saving_fields{
+    display: block;
+    /* margin: 8px; */
+}
+.ays-pd-content input.ays-pd-words_save_and_close_btn {
+    display: block;
+    margin: 5px 0;
+}
+
+.ays-pd-group-tab div.ays-pd-words-each-item-block{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 2px 10px;
+    background-color: #3f72af30;
+    /* position: relative; */
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-dropdown-buttons{
+    display: none;
+    position: absolute;
+    right: -3px;
+    top: 20px;
+    width: 120px;
+    z-index: 100;
+    border: 1px solid #c1c1c1;
+    border-radius: 6px;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-dropdown-buttons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-dropdown-buttons button {
+    background-color: #fff;
+    color: rgb(77, 74, 74);
+    padding: 10px 25px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: 550;
+    text-transform: capitalize;
+    opacity: 1;
+    line-height: 1;
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-dropdown-buttons button:not(:last-child) {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-dropdown-buttons button:hover{
+    background: #e0e0e0;
+}
+
+
+
+
+div.ays-pd-each_group_item div.ays-pd-groups-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+.ays-pd-group-tab div.ays-pd-words-each-item-block div.ays-pd-words-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+}
+
+div.ays-pd-words-each-item-block div.ays-pd-group-tab-edit-layer .ays-pd-word-translation-fields-parent{
+    margin-top: 8px;
+}
+
+div.ays-pd-words-each-item-block div.ays-pd-group-tab-edit-layer .ays-pd-word-translation-fields-parent input{
+    margin: 0;
+}
+
+
+div.ays-pd-group-tab-words div.ays-pd-word-translation-fields-parent{
+    padding: 5px 0px;
+}
+
+div.ays-pd-group-tab-words div.ays-pd-word-translation-fields-parent input{
+    margin: 0;
+}
+
+
+.ays-pd-group-tab div.ays-pd-words-each-item-block div.ays-pd-group-tab-edit-layer{
+    margin-top: 8px;
+    padding-top: 10px;
+}
+
+.ays-pd-group-tab div.ays-pd-words-each-item-block div.ays-pd-group-tab-edit-layer input[type='text'].ays-pd-word_editing_fields{
+    width: 80%;
+    color: rgb(77, 74, 74);
+    background: #fff;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    padding: 7px 10px;
+}
+
+div.ays-pd-group-tab-words  input[type='text'].ays-pd-word_saving_fields{
+    width: 80%;
+}
+
+div.ays-pd-content div.ays-pd-words-each-item-block p.ays-pd-each_word_item{
+    margin: 10px 0;
+    word-break: break-word;
+    cursor: pointer;
+}
+div.ays-pd-content div.ays-pd-words-each-item-block p.ays-pd-each_word_item .ays-pd-each_translation{
+    display: block;
+    font-size: 12px;
+
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 2px 0px;
+    background-color: #3f72af30;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item div.ays-pd-each-group-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item div.ays-pd-each-group-title p.ays-pd_each_group_title_words_count{
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item p.ays-pd_each_group_name{
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item div.ays-pd-each_group_icons{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-each_group_item div.ays-pd-each_group_icons a{
+    margin: 0;
+}
+
+div.ays-pd-content div.ays-pd-words-each-item-block div.ays-pd-each_words_icons{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+/* a.ays-pd-group-delete-btn svg{
+    fill: #d42828;
+} */
+div.ays-pd-content div.ays-pd-preloader {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    z-index: 10;
+}
+
+div.ays-pd-content div.ays-pd-preloader img {
+    height: 52px;
+}
+
+div.ays-pd-group-tab-words{
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: #3f72af30;
+}
+
+input[type='text'].ays-pd-group-name-inp{
+    display: block;
+    width: 80%;
+}
+
+.ays_pd_add_group_btn{
+    display: block;
+    margin-top: 8px;
+}
+
+div.ays-pd-save-groups-block{
+    display: none;
+    width: 100%;
+    height: 120px;
+    background-color: #3f72af30;
+    padding: 10px;
+}
+div.ays-pd-each_group_item div.ays-pd-group-edit-layer {
+    margin-top: 12px;
+    padding: 10px 10px 0 10px;
+}
+
+div.ays-pd-add-group-form .ays-pd-save_group_button{
+    margin-top: 5px;
+}
+
+div#ays-pd-box_id div.ays-pd-content span.ays-pd-box-close-button{
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 24px;
+    margin: 0 2px;
+
+}
+
+div#ays-pd-box_id div.ays-pd-content span.ays-pd-box-close-button svg{
+    fill: #565656;
+}
+
+
+div.ays-pd-add-group-form div.ays-pd-add-group-close-button-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.ays-pd-add-group-form div.ays-pd-add-group-close-button-div input{
+    margin: 0;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-close-button-div{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+div#ays-pd-box_id div#ays-pd-header_id .ays-pd-previous-button{
+    cursor: pointer;
+    display: flex;
+    color: #fff;
+}
+
+div#ays-pd-box_id div#ays-pd-header_id .ays-pd-previous-button svg{   
+    fill: #fff;
+}
+
+div#ays-pd-box_id div#ays-pd-header_id .ays_pd_add_word_button{
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+div.ays-pd-box div.ays-pd-group-tab  .ays-pd-icon-buttons a{
+    cursor: pointer;
+    box-shadow: none;
+    display: flex;
+    margin: 0;
+}
+
+
+div.ays-pd-box div.ays-pd-group-tab  .ays-pd-icon-buttons a svg{
+    height: 17px;
+    fill: #565656;
+}
+
+
+div.ays-pd-group-tab-words div.ays-pd-word-save-btn-block-div{
+    padding: 5px 0px;
+
+}
+
+div.ays-pd-content div.ays-pd-word-delete-button-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.ays-pd-group-tab-edit-layer div.ays-pd-word-delete-button-block {
+    margin: 8px 0;
+}
+
+div.ays-pd-box div.ays-pd-word-delete-button-block a{
+    margin: 0 2px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+div.ays-pd-content div.ays-pd-group-delete-button-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+div.ays-pd-box div.ays-pd-group-delete-button-block a{
+    margin: 0 2px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+div.ays-pd-content div.ays-pd-group-tab div.ays-pd-groups_progress_bar_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.ays-pd-groups_progress_bar_icons div.ays-pd-groups_line_percentage_bar{
+background-color: #ccc;
+    border-radius: 0;
+    max-width: 150px;
+    width: 80px;
+    height: 8px;
+    text-align: right;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+div.ays-pd-groups_progress_bar_icons  div.ays-pd-groups_line_percentage_bar_size{
+    background-color: #30cc43;
+    width: 0%;
+    height: 8px;
+    border-radius: 5px;
+}
+div.ays-pd-groups_line_percentage_bar_size  span.ays-pd-groups_line_percentage_span{
+    font-size: 12px;
+    display: block;
+    width: 80px;
+    padding-top: 8px;
+}
+
+
+/* Games  */
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-games-tab{
+    margin: 10px 0;
+}
+
+div.ays-pd-content input[type='radio'].ays-pd-game-type-rad{
+    display: none;
+}
+
+div.ays-pd-box div.ays-pd-content div.ays-pd-games-choosing-type label{
+    display: block;
+    margin: 0px 0 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+}
+div.ays-pd-games-choosing-type div.ays-pd-game-type-item{
+    width: 90%;
+    height: 100px;
+    cursor: pointer;
+    background-color: #3f72af;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+div.ays-pd-content div.ays-pd-games-settings-item {
+    margin: 10px;
+}
+
+div.ays-pd-content div.ays-pd-games-check-words-count {
+    display: flex;
+}
+
+div.ays-pd-content div.ays-pd-games-check-words-count label.ays-pd-form-check-label {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+div.ays-pd-content div.ays-pd-games-check-words-count label.ays-pd-form-check-label > span {
+    font-weight: 700;
+}
+
+div.ays-pd-content div.ays-pd-games-check-words-count label.ays-pd-form-check-label input[type="radio"] {
+    margin-right: 5px;
+    width: initial;
+    height: initial;
+    outline: none;
+    text-decoration: none;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+div.ays-pd-content div.ays-pd-games-check-words-count label.ays-pd-form-check-label input[type="radio"]::before,
+div.ays-pd-content div.ays-pd-games-check-words-count label.ays-pd-form-check-label input[type="radio"]::after {
+    content: none !important;
+}
+
+div.ays-pd-games-type-content-game-box p.ays-pd-games-find-word{
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* div.ays-pd-games-type-content-game-box div.ays-pd-games-type-find-word-translations{
+    border: 1px solid black;
+    margin: 5px 20px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+} */
+
+div.ays-pd-games-type-find-word-translations label{
+    width: 100%;
+}
+
+.ays-pd-box div.ays-pd-games-type-content div.ays-pd-game-fields{
+    cursor: pointer;
+}
+.ays-pd-box div.ays-pd-games-type-content div.ays-pd-game-fields{
+    border: 1px solid #94949485;
+    margin: 5px 20px;
+    border-radius: 3px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.ays-pd-box div.ays-pd-games-type-content div.ays-pd-game-fields label{
+    cursor: pointer;
+    padding: 8px;
+    padding-left: 10px;
+    margin: 0;
+}
+.ays-pd-box div.ays-pd-games-type-content div.ays-pd-game-fields input[type='radio']{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.ays-pd-games-type-content  div.ays-pd-game-fields label:hover {
+    background: rgba(63,114,175,0.65);
+    color: #fff;
+    transition: all .1s;
+}
+
+
+div.ays-pd-games-find-word-next-btn-block{
+    display: flex;
+    justify-content: center;
+}
+
+div.ays-pd-games-type-content-game-box{
+    display: none;
+}
+
+div.ays-pd-games-type-content-game-box:first-child{
+    display: block;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-games-type-content div.ays-pd-games-type-content-settings div.ays-pd-game-settings-message{
+    margin: 0 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #969696;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-games-type-content div.ays-pd-games-type-content-settings div.ays-pd-game-settings-message p{
+    margin: 0;
+}
+
+.active_step{
+    display: block !important;
+}
+.display_none{
+    display: none !important;
+}
+
+p.ays-pd-games-type-content-game-counter{
+    margin: 3px 20px;
+    text-align: right;
+}
+
+div.ays-pd-games-type-content .ays-pd-games-type-content-game .ays-pd-finish-game-message{
+    display: block;
+}
+
+.ays-pd-finish-game-message .ays-pd-finish-game-message-result-score{
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 4px;
+}
+
+.ays-pd-finish-game-message .ays-pd-finish-game-message-result-count{
+    text-align: center;
+    font-size: 12px;
+}
+
+.ays-pd-finish-game-message .ays-pd-finish-game-message-reload{
+    text-align: center;
+    margin: 10px;
+}
+
+div.ays-pd-games-type-content div.ays-pd-game-fields input[type='radio']{
+    display: none;
+}
+
+.checked_answer{
+    background: rgba(63,114,175,0.65);
+    color: #fff;
+    transition: all .2s;
+}
+
+.no_selected{
+    background: #fff;
+    color: #000;
+    transition: all .2s;
+}
+
+
+/* Translation */
+
+div.ays-pd-games-type-content-game-box p.ays-pd-games-find-translation{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div.ays-pd-games-type-find-translation-words label{
+    width: 100%;
+}
+
+div.ays-pd-games-find-translation-next-btn-block{
+    display: flex;
+    justify-content: center;
+}
+
+div.ays-pd-group-tab div.ays-pd-words-each-item-block div.ays-pd-group-tab-edit-layer{
+    display: none;
+}
+
+div.ays-pd-group-edit-layer{
+    display: none;
+}
+
+/* div.ays-pd-group-tab-edit-layer{
+    margin: 10px;
+    padding: 2px 10px;
+} */
+
+/* Select2 */
+
+div#ays-pd-box_id div.ays-pd-games-tab .select2.select2-container {
+    width: 90% !important;
+    margin: 10px 10px 0 10px;
+}
+div#ays-pd-box_id .select2-container .select2-dropdown {
+    /*margin-top: 30px;*/
+}
+div#ays-pd-box_id .select2-container .select2-dropdown .select2-results ul.select2-results__options{
+    max-height: 250px;
+}
+
+div#ays-pd-box_id .select2-container .select2-dropdown .select2-search__field{
+    outline: none;
+}
+
+div#ays-pd-box_id div.ays-pd-import-tab .select2.select2-container {
+    width: 90% !important;
+}
+
+div#ays-pd-box_id .select2-container--default .select2-selection--multiple  {
+    padding: 0 5px; 
+} 
+
+div#ays-pd-box_id .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    list-style: none;
+    margin: 0;
+    padding: 0 0px;
+    width: 100%;
+} 
+
+div#ays-pd-box_id .select2-container--default .select2-selection--multiple .select2-selection__rendered input[type='search']{
+    padding: 0 5px;
+}  
+
+div#ays-pd-box_id .select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-search{
+    margin: 0;
+}   
+
+
+/* End Select2 */ 
+
+.ays-pd-box .ays-pd-tab-content .ays-pd-empty-groups-content {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ays-pd-box .ays-pd-tab-content .ays-pd-empty-groups-content span.ays-pd-add_group_btn,
+.ays-pd-box .ays-pd-tab-content .ays-pd-empty-groups-content span.ays_pd_add_word_button {
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.ays-pd-box  .ays-pd-delete-button-icon{
+    fill: #565656;
+}
+
+div.ays-pd-box  .ays-pd-delete-button-icon:hover{
+    fill: #000;
+}
+
+div#ays-pd-box_id div#ays-pd-container_id div.ays-pd-nav-menu .ays-pd-nav-tab-active{
+    text-decoration: underline;
+}
+
+
+/*  Import */
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-import-tab{
+    background: #fafafa;
+    border: 1px solid #ccd0d4;
+    padding: 25px;
+    margin: 25px auto 55px;
+    font-size: 14px;
+    max-width: 350px;
+    width: 95%;
+}
+
+div#ays-pd-box_id div.ays-pd-content div.ays-pd-import-tab div.ays-pd-import-tab-item {
+    margin-top: 15px;
+}
+
+div#ays-pd-box_id div.ays-pd-content input#ays-pd-import_file{
+    width: 100%;
+    max-width: 200px;
+}
